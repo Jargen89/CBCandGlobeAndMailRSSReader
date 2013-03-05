@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CFDB75B16E676C100D3EF1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFDB75A16E676C100D3EF1F /* UIKit.framework */; };
+		0CFDB75D16E676C100D3EF1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFDB75C16E676C100D3EF1F /* Foundation.framework */; };
+		0CFDB75F16E676C100D3EF1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFDB75E16E676C100D3EF1F /* CoreGraphics.framework */; };
+		0CFDB76516E676C100D3EF1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDB76316E676C100D3EF1F /* InfoPlist.strings */; };
+		0CFDB76716E676C100D3EF1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFDB76616E676C100D3EF1F /* main.m */; };
+		0CFDB76B16E676C100D3EF1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFDB76A16E676C100D3EF1F /* AppDelegate.m */; };
+		0CFDB76D16E676C100D3EF1F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDB76C16E676C100D3EF1F /* Default.png */; };
+		0CFDB76F16E676C100D3EF1F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDB76E16E676C100D3EF1F /* Default@2x.png */; };
+		0CFDB77116E676C100D3EF1F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDB77016E676C100D3EF1F /* Default-568h@2x.png */; };
+		0CFDB77416E676C100D3EF1F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDB77216E676C100D3EF1F /* MainStoryboard.storyboard */; };
+		0CFDB77716E676C100D3EF1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFDB77616E676C100D3EF1F /* ViewController.m */; };
+		0CFDB77F16E676C200D3EF1F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFDB77E16E676C200D3EF1F /* SenTestingKit.framework */; };
+		0CFDB78016E676C200D3EF1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFDB75A16E676C100D3EF1F /* UIKit.framework */; };
+		0CFDB78116E676C200D3EF1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFDB75C16E676C100D3EF1F /* Foundation.framework */; };
+		0CFDB78916E676C200D3EF1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDB78716E676C200D3EF1F /* InfoPlist.strings */; };
+		0CFDB78C16E676C200D3EF1F /* viei_A6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFDB78B16E676C200D3EF1F /* viei_A6Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CFDB78216E676C200D3EF1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CFDB74D16E676C100D3EF1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CFDB75516E676C100D3EF1F;
+			remoteInfo = viei_A6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CFDB75616E676C100D3EF1F /* viei_A6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viei_A6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFDB75A16E676C100D3EF1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0CFDB75C16E676C100D3EF1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0CFDB75E16E676C100D3EF1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0CFDB76216E676C100D3EF1F /* viei_A6-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viei_A6-Info.plist"; sourceTree = "<group>"; };
+		0CFDB76416E676C100D3EF1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0CFDB76616E676C100D3EF1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CFDB76816E676C100D3EF1F /* viei_A6-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "viei_A6-Prefix.pch"; sourceTree = "<group>"; };
+		0CFDB76916E676C100D3EF1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0CFDB76A16E676C100D3EF1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CFDB76C16E676C100D3EF1F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0CFDB76E16E676C100D3EF1F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0CFDB77016E676C100D3EF1F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0CFDB77316E676C100D3EF1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0CFDB77516E676C100D3EF1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0CFDB77616E676C100D3EF1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0CFDB77D16E676C200D3EF1F /* viei_A6Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viei_A6Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFDB77E16E676C200D3EF1F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0CFDB78616E676C200D3EF1F /* viei_A6Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viei_A6Tests-Info.plist"; sourceTree = "<group>"; };
+		0CFDB78816E676C200D3EF1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0CFDB78A16E676C200D3EF1F /* viei_A6Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viei_A6Tests.h; sourceTree = "<group>"; };
+		0CFDB78B16E676C200D3EF1F /* viei_A6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viei_A6Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CFDB75316E676C100D3EF1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFDB75B16E676C100D3EF1F /* UIKit.framework in Frameworks */,
+				0CFDB75D16E676C100D3EF1F /* Foundation.framework in Frameworks */,
+				0CFDB75F16E676C100D3EF1F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFDB77916E676C200D3EF1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFDB77F16E676C200D3EF1F /* SenTestingKit.framework in Frameworks */,
+				0CFDB78016E676C200D3EF1F /* UIKit.framework in Frameworks */,
+				0CFDB78116E676C200D3EF1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CFDB74B16E676C100D3EF1F = {
+			isa = PBXGroup;
+			children = (
+				0CFDB76016E676C100D3EF1F /* viei_A6 */,
+				0CFDB78416E676C200D3EF1F /* viei_A6Tests */,
+				0CFDB75916E676C100D3EF1F /* Frameworks */,
+				0CFDB75716E676C100D3EF1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CFDB75716E676C100D3EF1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CFDB75616E676C100D3EF1F /* viei_A6.app */,
+				0CFDB77D16E676C200D3EF1F /* viei_A6Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CFDB75916E676C100D3EF1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CFDB75A16E676C100D3EF1F /* UIKit.framework */,
+				0CFDB75C16E676C100D3EF1F /* Foundation.framework */,
+				0CFDB75E16E676C100D3EF1F /* CoreGraphics.framework */,
+				0CFDB77E16E676C200D3EF1F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CFDB76016E676C100D3EF1F /* viei_A6 */ = {
+			isa = PBXGroup;
+			children = (
+				0CFDB76916E676C100D3EF1F /* AppDelegate.h */,
+				0CFDB76A16E676C100D3EF1F /* AppDelegate.m */,
+				0CFDB77216E676C100D3EF1F /* MainStoryboard.storyboard */,
+				0CFDB77516E676C100D3EF1F /* ViewController.h */,
+				0CFDB77616E676C100D3EF1F /* ViewController.m */,
+				0CFDB76116E676C100D3EF1F /* Supporting Files */,
+			);
+			path = viei_A6;
+			sourceTree = "<group>";
+		};
+		0CFDB76116E676C100D3EF1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CFDB76216E676C100D3EF1F /* viei_A6-Info.plist */,
+				0CFDB76316E676C100D3EF1F /* InfoPlist.strings */,
+				0CFDB76616E676C100D3EF1F /* main.m */,
+				0CFDB76816E676C100D3EF1F /* viei_A6-Prefix.pch */,
+				0CFDB76C16E676C100D3EF1F /* Default.png */,
+				0CFDB76E16E676C100D3EF1F /* Default@2x.png */,
+				0CFDB77016E676C100D3EF1F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CFDB78416E676C200D3EF1F /* viei_A6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0CFDB78A16E676C200D3EF1F /* viei_A6Tests.h */,
+				0CFDB78B16E676C200D3EF1F /* viei_A6Tests.m */,
+				0CFDB78516E676C200D3EF1F /* Supporting Files */,
+			);
+			path = viei_A6Tests;
+			sourceTree = "<group>";
+		};
+		0CFDB78516E676C200D3EF1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CFDB78616E676C200D3EF1F /* viei_A6Tests-Info.plist */,
+				0CFDB78716E676C200D3EF1F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CFDB75516E676C100D3EF1F /* viei_A6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CFDB78F16E676C200D3EF1F /* Build configuration list for PBXNativeTarget "viei_A6" */;
+			buildPhases = (
+				0CFDB75216E676C100D3EF1F /* Sources */,
+				0CFDB75316E676C100D3EF1F /* Frameworks */,
+				0CFDB75416E676C100D3EF1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = viei_A6;
+			productName = viei_A6;
+			productReference = 0CFDB75616E676C100D3EF1F /* viei_A6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CFDB77C16E676C200D3EF1F /* viei_A6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CFDB79216E676C200D3EF1F /* Build configuration list for PBXNativeTarget "viei_A6Tests" */;
+			buildPhases = (
+				0CFDB77816E676C200D3EF1F /* Sources */,
+				0CFDB77916E676C200D3EF1F /* Frameworks */,
+				0CFDB77A16E676C200D3EF1F /* Resources */,
+				0CFDB77B16E676C200D3EF1F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CFDB78316E676C200D3EF1F /* PBXTargetDependency */,
+			);
+			name = viei_A6Tests;
+			productName = viei_A6Tests;
+			productReference = 0CFDB77D16E676C200D3EF1F /* viei_A6Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CFDB74D16E676C100D3EF1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hoang Chinh";
+			};
+			buildConfigurationList = 0CFDB75016E676C100D3EF1F /* Build configuration list for PBXProject "viei_A6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CFDB74B16E676C100D3EF1F;
+			productRefGroup = 0CFDB75716E676C100D3EF1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CFDB75516E676C100D3EF1F /* viei_A6 */,
+				0CFDB77C16E676C200D3EF1F /* viei_A6Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CFDB75416E676C100D3EF1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFDB76516E676C100D3EF1F /* InfoPlist.strings in Resources */,
+				0CFDB76D16E676C100D3EF1F /* Default.png in Resources */,
+				0CFDB76F16E676C100D3EF1F /* Default@2x.png in Resources */,
+				0CFDB77116E676C100D3EF1F /* Default-568h@2x.png in Resources */,
+				0CFDB77416E676C100D3EF1F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFDB77A16E676C200D3EF1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFDB78916E676C200D3EF1F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CFDB77B16E676C200D3EF1F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CFDB75216E676C100D3EF1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFDB76716E676C100D3EF1F /* main.m in Sources */,
+				0CFDB76B16E676C100D3EF1F /* AppDelegate.m in Sources */,
+				0CFDB77716E676C100D3EF1F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFDB77816E676C200D3EF1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFDB78C16E676C200D3EF1F /* viei_A6Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CFDB78316E676C200D3EF1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CFDB75516E676C100D3EF1F /* viei_A6 */;
+			targetProxy = 0CFDB78216E676C200D3EF1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CFDB76316E676C100D3EF1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CFDB76416E676C100D3EF1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0CFDB77216E676C100D3EF1F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CFDB77316E676C100D3EF1F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		0CFDB78716E676C200D3EF1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CFDB78816E676C200D3EF1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CFDB78D16E676C200D3EF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0CFDB78E16E676C200D3EF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CFDB79016E676C200D3EF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viei_A6/viei_A6-Prefix.pch";
+				INFOPLIST_FILE = "viei_A6/viei_A6-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0CFDB79116E676C200D3EF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viei_A6/viei_A6-Prefix.pch";
+				INFOPLIST_FILE = "viei_A6/viei_A6-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0CFDB79316E676C200D3EF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/viei_A6.app/viei_A6";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viei_A6/viei_A6-Prefix.pch";
+				INFOPLIST_FILE = "viei_A6Tests/viei_A6Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0CFDB79416E676C200D3EF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/viei_A6.app/viei_A6";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viei_A6/viei_A6-Prefix.pch";
+				INFOPLIST_FILE = "viei_A6Tests/viei_A6Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CFDB75016E676C100D3EF1F /* Build configuration list for PBXProject "viei_A6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFDB78D16E676C200D3EF1F /* Debug */,
+				0CFDB78E16E676C200D3EF1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CFDB78F16E676C200D3EF1F /* Build configuration list for PBXNativeTarget "viei_A6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFDB79016E676C200D3EF1F /* Debug */,
+				0CFDB79116E676C200D3EF1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CFDB79216E676C200D3EF1F /* Build configuration list for PBXNativeTarget "viei_A6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFDB79316E676C200D3EF1F /* Debug */,
+				0CFDB79416E676C200D3EF1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CFDB74D16E676C100D3EF1F /* Project object */;
+}
