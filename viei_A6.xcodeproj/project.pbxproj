@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CB43E0516E683C4005AFFBC /* CBCDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB43E0416E683C4005AFFBC /* CBCDetailView.m */; };
+		0CB43E0B16E6846E005AFFBC /* RSSVieiChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB43E0A16E6846E005AFFBC /* RSSVieiChannel.m */; };
+		0CB43E0E16E684D8005AFFBC /* RSSVieiItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB43E0D16E684D8005AFFBC /* RSSVieiItem.m */; };
+		0CB43E1416E68D18005AFFBC /* GMNewsFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB43E1316E68D18005AFFBC /* GMNewsFeed.m */; };
+		0CB43E2916E6BAD8005AFFBC /* CBCWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB43E2816E6BAD7005AFFBC /* CBCWebView.m */; };
+		0CB43E2C16E6C71B005AFFBC /* GMWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB43E2B16E6C71B005AFFBC /* GMWebView.m */; };
 		0CFDB75B16E676C100D3EF1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFDB75A16E676C100D3EF1F /* UIKit.framework */; };
 		0CFDB75D16E676C100D3EF1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFDB75C16E676C100D3EF1F /* Foundation.framework */; };
 		0CFDB75F16E676C100D3EF1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFDB75E16E676C100D3EF1F /* CoreGraphics.framework */; };
@@ -17,12 +23,15 @@
 		0CFDB76F16E676C100D3EF1F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDB76E16E676C100D3EF1F /* Default@2x.png */; };
 		0CFDB77116E676C100D3EF1F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDB77016E676C100D3EF1F /* Default-568h@2x.png */; };
 		0CFDB77416E676C100D3EF1F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDB77216E676C100D3EF1F /* MainStoryboard.storyboard */; };
-		0CFDB77716E676C100D3EF1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFDB77616E676C100D3EF1F /* ViewController.m */; };
 		0CFDB77F16E676C200D3EF1F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFDB77E16E676C200D3EF1F /* SenTestingKit.framework */; };
 		0CFDB78016E676C200D3EF1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFDB75A16E676C100D3EF1F /* UIKit.framework */; };
 		0CFDB78116E676C200D3EF1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFDB75C16E676C100D3EF1F /* Foundation.framework */; };
 		0CFDB78916E676C200D3EF1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDB78716E676C200D3EF1F /* InfoPlist.strings */; };
 		0CFDB78C16E676C200D3EF1F /* viei_A6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFDB78B16E676C200D3EF1F /* viei_A6Tests.m */; };
+		0CFDB79716E6772400D3EF1F /* CBCNewsFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFDB79616E6772400D3EF1F /* CBCNewsFeed.m */; };
+		0CFDB79F16E67B6000D3EF1F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDB79D16E67B6000D3EF1F /* icon.png */; };
+		0CFDB7A016E67B6000D3EF1F /* maple3png.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDB79E16E67B6000D3EF1F /* maple3png.png */; };
+		0CFDB7A216E67B6700D3EF1F /* cbc-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDB7A116E67B6700D3EF1F /* cbc-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CB43E0316E683C4005AFFBC /* CBCDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBCDetailView.h; sourceTree = "<group>"; };
+		0CB43E0416E683C4005AFFBC /* CBCDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBCDetailView.m; sourceTree = "<group>"; };
+		0CB43E0916E6846E005AFFBC /* RSSVieiChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSVieiChannel.h; sourceTree = "<group>"; };
+		0CB43E0A16E6846E005AFFBC /* RSSVieiChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSVieiChannel.m; sourceTree = "<group>"; };
+		0CB43E0C16E684D8005AFFBC /* RSSVieiItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSVieiItem.h; sourceTree = "<group>"; };
+		0CB43E0D16E684D8005AFFBC /* RSSVieiItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSVieiItem.m; sourceTree = "<group>"; };
+		0CB43E1216E68D18005AFFBC /* GMNewsFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMNewsFeed.h; sourceTree = "<group>"; };
+		0CB43E1316E68D18005AFFBC /* GMNewsFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMNewsFeed.m; sourceTree = "<group>"; };
+		0CB43E2716E6BAD7005AFFBC /* CBCWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBCWebView.h; sourceTree = "<group>"; };
+		0CB43E2816E6BAD7005AFFBC /* CBCWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBCWebView.m; sourceTree = "<group>"; };
+		0CB43E2A16E6C71A005AFFBC /* GMWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMWebView.h; sourceTree = "<group>"; };
+		0CB43E2B16E6C71B005AFFBC /* GMWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMWebView.m; sourceTree = "<group>"; };
 		0CFDB75616E676C100D3EF1F /* viei_A6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viei_A6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFDB75A16E676C100D3EF1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0CFDB75C16E676C100D3EF1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,14 +71,17 @@
 		0CFDB76E16E676C100D3EF1F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0CFDB77016E676C100D3EF1F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0CFDB77316E676C100D3EF1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		0CFDB77516E676C100D3EF1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0CFDB77616E676C100D3EF1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0CFDB77D16E676C200D3EF1F /* viei_A6Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viei_A6Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFDB77E16E676C200D3EF1F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		0CFDB78616E676C200D3EF1F /* viei_A6Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viei_A6Tests-Info.plist"; sourceTree = "<group>"; };
 		0CFDB78816E676C200D3EF1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0CFDB78A16E676C200D3EF1F /* viei_A6Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viei_A6Tests.h; sourceTree = "<group>"; };
 		0CFDB78B16E676C200D3EF1F /* viei_A6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viei_A6Tests.m; sourceTree = "<group>"; };
+		0CFDB79516E6772400D3EF1F /* CBCNewsFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBCNewsFeed.h; sourceTree = "<group>"; };
+		0CFDB79616E6772400D3EF1F /* CBCNewsFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBCNewsFeed.m; sourceTree = "<group>"; };
+		0CFDB79D16E67B6000D3EF1F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0CFDB79E16E67B6000D3EF1F /* maple3png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maple3png.png; sourceTree = "<group>"; };
+		0CFDB7A116E67B6700D3EF1F /* cbc-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cbc-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +111,8 @@
 		0CFDB74B16E676C100D3EF1F = {
 			isa = PBXGroup;
 			children = (
+				0CB43E0C16E684D8005AFFBC /* RSSVieiItem.h */,
+				0CB43E0D16E684D8005AFFBC /* RSSVieiItem.m */,
 				0CFDB76016E676C100D3EF1F /* viei_A6 */,
 				0CFDB78416E676C200D3EF1F /* viei_A6Tests */,
 				0CFDB75916E676C100D3EF1F /* Frameworks */,
@@ -119,9 +145,19 @@
 			children = (
 				0CFDB76916E676C100D3EF1F /* AppDelegate.h */,
 				0CFDB76A16E676C100D3EF1F /* AppDelegate.m */,
+				0CB43E0916E6846E005AFFBC /* RSSVieiChannel.h */,
+				0CB43E0A16E6846E005AFFBC /* RSSVieiChannel.m */,
 				0CFDB77216E676C100D3EF1F /* MainStoryboard.storyboard */,
-				0CFDB77516E676C100D3EF1F /* ViewController.h */,
-				0CFDB77616E676C100D3EF1F /* ViewController.m */,
+				0CB43E2A16E6C71A005AFFBC /* GMWebView.h */,
+				0CB43E2B16E6C71B005AFFBC /* GMWebView.m */,
+				0CFDB79516E6772400D3EF1F /* CBCNewsFeed.h */,
+				0CFDB79616E6772400D3EF1F /* CBCNewsFeed.m */,
+				0CB43E1216E68D18005AFFBC /* GMNewsFeed.h */,
+				0CB43E1316E68D18005AFFBC /* GMNewsFeed.m */,
+				0CB43E0316E683C4005AFFBC /* CBCDetailView.h */,
+				0CB43E0416E683C4005AFFBC /* CBCDetailView.m */,
+				0CB43E2716E6BAD7005AFFBC /* CBCWebView.h */,
+				0CB43E2816E6BAD7005AFFBC /* CBCWebView.m */,
 				0CFDB76116E676C100D3EF1F /* Supporting Files */,
 			);
 			path = viei_A6;
@@ -131,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				0CFDB76216E676C100D3EF1F /* viei_A6-Info.plist */,
+				0CFDB79C16E67B4C00D3EF1F /* Images */,
 				0CFDB76316E676C100D3EF1F /* InfoPlist.strings */,
 				0CFDB76616E676C100D3EF1F /* main.m */,
 				0CFDB76816E676C100D3EF1F /* viei_A6-Prefix.pch */,
@@ -158,6 +195,16 @@
 				0CFDB78716E676C200D3EF1F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CFDB79C16E67B4C00D3EF1F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0CFDB7A116E67B6700D3EF1F /* cbc-icon.png */,
+				0CFDB79D16E67B6000D3EF1F /* icon.png */,
+				0CFDB79E16E67B6000D3EF1F /* maple3png.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +283,9 @@
 				0CFDB76F16E676C100D3EF1F /* Default@2x.png in Resources */,
 				0CFDB77116E676C100D3EF1F /* Default-568h@2x.png in Resources */,
 				0CFDB77416E676C100D3EF1F /* MainStoryboard.storyboard in Resources */,
+				0CFDB79F16E67B6000D3EF1F /* icon.png in Resources */,
+				0CFDB7A016E67B6000D3EF1F /* maple3png.png in Resources */,
+				0CFDB7A216E67B6700D3EF1F /* cbc-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +322,13 @@
 			files = (
 				0CFDB76716E676C100D3EF1F /* main.m in Sources */,
 				0CFDB76B16E676C100D3EF1F /* AppDelegate.m in Sources */,
-				0CFDB77716E676C100D3EF1F /* ViewController.m in Sources */,
+				0CFDB79716E6772400D3EF1F /* CBCNewsFeed.m in Sources */,
+				0CB43E0516E683C4005AFFBC /* CBCDetailView.m in Sources */,
+				0CB43E0B16E6846E005AFFBC /* RSSVieiChannel.m in Sources */,
+				0CB43E0E16E684D8005AFFBC /* RSSVieiItem.m in Sources */,
+				0CB43E1416E68D18005AFFBC /* GMNewsFeed.m in Sources */,
+				0CB43E2916E6BAD8005AFFBC /* CBCWebView.m in Sources */,
+				0CB43E2C16E6C71B005AFFBC /* GMWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +503,7 @@
 				0CFDB79116E676C200D3EF1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CFDB79216E676C200D3EF1F /* Build configuration list for PBXNativeTarget "viei_A6Tests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +512,7 @@
 				0CFDB79416E676C200D3EF1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

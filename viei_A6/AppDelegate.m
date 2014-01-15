@@ -7,11 +7,30 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CBCNewsFeed.h"
+#import "GMNewsFeed.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    /*
+    CBCNewsFeed *cnf = [[CBCNewsFeed alloc] initWithStyle:UITableViewStylePlain];
+    GMNewsFeed *gnf = [[GMNewsFeed alloc] initWithStyle:UITableViewStylePlain];
+    // Create the tabBarController
+    
+    // Make an array containing the two view controllers
+   
+    UINavigationController *nav1 =[[UINavigationController alloc] initWithRootViewController:cnf];
+    UINavigationController *nav2 =[[UINavigationController alloc] initWithRootViewController:gnf];
+    NSArray *navControllers = [NSArray arrayWithObjects:nav1, nav2, nil];
+    UITabBarController *masterTab = [[UITabBarController alloc] init];
+    [masterTab setViewControllers:navControllers];
+    [[self window] setRootViewController: masterTab];
+    [[self window] makeKeyAndVisible];
+    //WebViewVieiController *wvc = [[WebViewVieiController alloc] init];
+    //[lvc setWebViewController:wvc];
+     
+    */
     // Override point for customization after application launch.
     return YES;
 }
